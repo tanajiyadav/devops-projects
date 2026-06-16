@@ -11,7 +11,7 @@ pipeline {
         stage('Hello World') {
             steps {
                 echo 'Hello World from Jenkins! main branch'
-                sh "ls -l"
+                sh "cat testfile"
             }
         }
     }
